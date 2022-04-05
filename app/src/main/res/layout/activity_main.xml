@@ -23,4 +23,11 @@
         android:text="@string/btn_scan"
         android:textSize="24sp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="nfcScanClick"
+        android:text="SCAN NFC TAG" />
+
 </LinearLayout>
